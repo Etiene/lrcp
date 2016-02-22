@@ -150,8 +150,35 @@
 	- random
 	- rss
 
+##Perl [CPAN](http://www.cpan.org/)
+- Very extensive FAQ
+- Popular uploaders: weekly, yearly, all time (by releases)
+- Favorites
+- reviews
+- changelog
+- sourcecode raw
+- author
+	- endorse
+	- donate
+	- activities
+	- favorites
+- tester matrix (http://matrix.cpantesters.org/?dist=DateTime+1.21)
+
 ##Rust [Cargo](https://crates.io/)
 
 ##Elixir [Hex](https://hex.pm/)
 
+##Archlinux [pacman](https://www.archlinux.org/packages/)
+- Shows package contents
+- Has different repositories (Core, Community, Extra)
+- Flag outdated 
+- Direct download
+
+##Ubuntu [Ubuntu Software Centre](https://apps.ubuntu.com/cat/)
+- """apps"""
+- Reviews, stars
+- Social networks integration -> FB like, share, tweet, +1
+- Free and paid apps
+
+##Debian [???](https://www.debian.org/distrib/packages)
 

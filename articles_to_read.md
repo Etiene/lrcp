@@ -3,12 +3,38 @@
 #Critics on language specific package managers
  - Language Specific Package Managers, by Kevin Cox, 18/10/2013, accessed 22/02/2016  https://kevincox.ca/2013/10/18/language-specific-package-managers/
 
+###Summarized:
+Language specific package managers are needed because authors need an easy way of publishing, but they are problematic for updating, integrating with your system and some of them don't have many features. A recurrent problem with maintaining packages is authors not abiding to semantic versioning. 
+
 #Comparison of tools
 - Which programming language has the best package manager?, by Robert Reiz, 15/01/2014, accessed 22/02/2016 http://blog.versioneye.com/2014/01/15/which-programming-language-has-the-best-package-manager/
 	- Discussion on reddit: https://www.reddit.com/r/programming/comments/1vg4q0/which_programming_language_has_the_best_package/
 
+###Summarized:
+####What's a package manager
+A developer tool that allows to easily publish and consume software libraries and manage dependencies. The package manager:
+- Has a repository of binaries or source code
+- Has a client, usually a command-line tool, that communicates with the repository
+- Downloads the libraries from the repository
+- Places the library in the right place and links them to the repository
+- Resolves dependencies
+####Compares package managers on the following properties
+- Packages are signed
+- Has a centralized repository
+- This repository has mirrors
+- Learning curve and easiness of use
+- Semver support
+- Mandatory license
+- Documentation
+
+--> It does not mention their web interfaces
+
+
 #LuaRocks
 - LuaRocks - a declarative and extensible package management system for Lua, by Hisham Muhammad, Fabio Mascarenhas, Roberto Ierusalimschy, 17th Brazilian Symposium, SBLP 2013, accessed 22/02/2016   http://www.inf.puc-rio.br/~roberto/docs/sblp2013-2.pdf
+
+###Summarized:
+Argues that language-specific package managers are intrinsically linked to the language design of the language they were built for. How modules are built, packaged, deployed, detected depend on decisions of implementation particular of each language. Example: In languages that require a compilation step, the package manager has to deal with that. LuaRocks is a language-specific package manager for the Lua programming language. Lua only gained a module feature on v5.0, 10 years after the initial release of the language, and with it, new concerns about namespacing, build methods, packaging formats and redistribution of modules. Because Lua's goal is to remain minimal for being embeddable, it would not deal with it internally. 
 
 - More: https://github.com/keplerproject/luarocks/wiki/Documentation#Presentations
 
