@@ -150,6 +150,8 @@
 	- random
 	- rss
 
+##Rust [Cargo](https://crates.io/)
 
+##Elixir [Hex](https://hex.pm/)
 
 
