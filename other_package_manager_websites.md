@@ -1,5 +1,16 @@
 #Other Package Manager Websites
 
+##Number of modules as of Feb 23, 2016
+- npm: 243,712
+- cpan: 160,890
+- rubygems: 114.720
+- packagist: 86 896
+- pip: 75174
+- cargo: 4,147
+- hex: 1 589
+- luarocks: 1250
+
+
 ##Javascript: [npm](https://www.npmjs.com/)
 - Pretty design
 - Good search engine with autocompletion
