@@ -77,7 +77,11 @@ An interesting perspective is that users tend believe there is a conflict betwee
 
 - The state of the Lua ecosystem. Pierre Chapuis, Lua Workshop 2015 http://www.lua.org/wshop13/Chapuis.pdf
 
+- https://news.ycombinator.com/item?id=3534746
 
+- How lua became popular at game dev: a historical anecdote on community: https://www.quora.com/How-did-Lua-become-popular-in-the-video-game-industry
+
+- Why isn't lua more widely used, a discussiona at lua-list: http://lua.2524044.n2.nabble.com/Why-isn-t-Lua-more-widely-used-td7232180.html
 
 
 #User experience design
